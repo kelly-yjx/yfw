@@ -1,0 +1,416 @@
+.header_top {
+  background: #F4F4F4;
+  border-bottom: 1px solid #ccc;
+}
+.header_top .container {
+  height: 40px;
+}
+.header_top .container i {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 10px 5px 10px 0;
+}
+.header_top .container .icons {
+  background: url(img/icons.png) no-repeat;
+}
+.header_top .container .fl li {
+  float: left;
+}
+.header_top .container .fl li .wx {
+  background-position: -49px -3px;
+}
+.header_top .container .fl li .phone {
+  background-position: -68px -3px;
+}
+.header_top .container .fl li a {
+  display: block;
+  font-size: 12px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+.header_top .container .fl li a:hover {
+  text-decoration: underline;
+  color: #009926;
+}
+.header_top .container .fl li s {
+  float: left;
+  display: block;
+  margin: 10px 10px 10px 10px;
+  width: 1px;
+  height: 20px;
+  border-right: 1px solid #e5e5e5;
+  font-size: 0;
+  overflow: hidden;
+}
+.header_top .fr li {
+  float: right;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  border-left: 1px solid #F4F4F4;
+  border-right: 1px solid #F4F4F4;
+}
+.header_top .fr li .dropdown {
+  background-position: -121px 1px;
+}
+.header_top .fr li a {
+  float: left;
+  display: block;
+  font-size: 12px;
+}
+.header_top .fr li a:hover {
+  text-decoration: underline;
+  color: #009926;
+}
+.header_top .fr .daohang {
+  position: relative;
+  padding-left: 20px;
+  margin-left: -20px;
+}
+.header_top .fr .daohang .line {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  z-index: 10000;
+  display: none;
+  width: 100%;
+  height: 1px;
+  border-top: 0;
+  border-bottom: 1px solid #fff;
+}
+.header_top .fr .daohang .other {
+  background: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: -1px;
+  top: 40px;
+  z-index: 2;
+  width: 450px;
+  padding: 10px 0;
+  line-height: 1.5;
+  display: none;
+}
+.header_top .fr .daohang .other .item {
+  display: inline-block;
+  width: 44%;
+  vertical-align: top;
+  text-align: left;
+}
+.header_top .fr .daohang .other .item .h1 {
+  color: #0cb95f;
+  font-size: 14px;
+  padding: 0 0 5px 5px;
+}
+.header_top .fr .daohang .other .item a {
+  display: inline-block;
+  vertical-align: top;
+  padding: 2px 5px;
+  color: #333;
+}
+.header_top .fr .daohang .other .item a:hover {
+  color: #009926;
+}
+.header_top .fr .daohang:hover {
+  background: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+.header_top .fr .daohang:hover .dropdown {
+  background-position: -136px 1px;
+}
+.header_top .fr .daohang:hover a {
+  text-decoration: none;
+}
+.header_top .fr .daohang:hover .line {
+  display: block;
+}
+.header_top .fr .daohang:hover .other {
+  display: block;
+}
+
+.header .container {
+  position: relative;
+  height: 120px;
+}
+.header .container .logo {
+  width: 378px;
+  position: absolute;
+  top: 24px;
+  left: 10px;
+}
+.header .container .logo .name {
+  width: 210px;
+  height: 70px;
+  display: block;
+}
+.header .container .logo a {
+  float: left;
+}
+.header .container .logo .sub {
+  float: left;
+  margin: 10px;
+  padding-left: 15px;
+  height: 55px;
+  border-left: 1px solid #e5e5e5;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 55px;
+}
+.header .container .logo .sub .sub_name {
+  color: #666;
+  white-space: nowrap;
+}
+
+.register {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background: #f4f4f4;
+}
+.register .form {
+  padding: 30px 0;
+}
+.register .form .tabnav {
+  position: relative;
+}
+.register .form .tabnav .nav_ul {
+  height: 49px;
+  background: #f4f4f4;
+}
+.register .form .tabnav .nav_ul .first {
+  border-left: 1px solid #e5e5e5;
+}
+.register .form .tabnav .nav_ul li {
+  position: relative;
+  float: left;
+  width: 180px;
+  height: 49px;
+  border-right: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: 49px;
+}
+.register .form .tabnav .nav_ul li .cur {
+  height: 48px;
+  border-top: 2px solid #0cb95f;
+  background: #fff;
+  color: #0cb95f;
+  line-height: 49px;
+}
+.register .form .tabnav .nav_ul li .cur2 {
+  height: 48px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.register .form .tabnav .nav_ul li a {
+  position: relative;
+  display: block;
+  border-top: 1px solid #e5e5e5;
+  font-size: 18px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.register .form .tabnav .nav_ul li a:hover {
+  color: #009926;
+  text-decoration: underline;
+}
+.register .form .items {
+  padding: 30px 0;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.register .form .items .line {
+  margin: 10px 0;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px dotted #ccc;
+  background: #f9f9f9;
+}
+.register .form .items li {
+  padding: 10px 0;
+  height: 40px;
+  color: #666;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+}
+.register .form .items li .note {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  width: 170px;
+  height: 40px;
+  color: #999;
+  text-align: right;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+}
+.register .form .items li .note label {
+  margin-right: 5px;
+  color: #e50000;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: serif;
+}
+.register .form .items li .bginput {
+  position: relative;
+  float: left;
+  display: block;
+}
+.register .form .items li .bginput i {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  display: block;
+  width: 18px;
+  height: 25px;
+  background-image: url(img/icons.png);
+}
+.register .form .items li .bginput .input_big {
+  padding: 0 20px 0 35px;
+  width: 265px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  color: #333;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+}
+.register .form .items li .bginput .s {
+  padding: 0 20px 0 10px;
+}
+.register .form .items li .bginput .user {
+  background-position: -391px -109px;
+}
+.register .form .items li .bginput .pass {
+  background-position: -410px -109px;
+}
+.register .form .license {
+  margin: 0 0 0 180px;
+}
+.register .form .license a {
+  color: #009926;
+}
+.register .form .op {
+  margin-left: 180px;
+}
+.register .form .op a {
+  float: left;
+  width: 320px;
+}
+.register .form .op .btn_reg {
+  display: block;
+  background: #0cb95f;
+  color: #fff;
+  text-align: center;
+}
+.register .oninfo {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  padding: 0 10px 0 25px;
+  font-size: 12px;
+}
+.register .oninfo i {
+  position: absolute;
+  top: 13px;
+  left: 5px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(img/icons.png);
+}
+.register .err {
+  color: #e16070;
+}
+.register .err i {
+  background-position: -280px -120px;
+}
+
+.btn_msg {
+  display: block;
+  color: #999;
+  background: #f4f4f4;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  padding: 0 20px;
+  margin-left: 5px;
+}
+
+.ckdiv {
+  position: relative;
+  float: left;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.ckdiv .ck {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: -41px -25px;
+  vertical-align: middle;
+  background-image: url(img/icons.png);
+}
+
+.footer {
+  margin-top: 0;
+  min-width: 1190px;
+}
+.footer .container {
+  width: 1190px;
+}
+.footer .simple {
+  color: #999;
+  padding: 10px 0;
+}
+.footer .simple a:hover {
+  text-decoration: underline;
+}
+.footer .simple p {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.footer .simple p a {
+  color: #999;
+  margin: 0 4px;
+  font-size: 14px;
+}
+.footer .simple p span {
+  font-size: 14px;
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 12px;
+}
+.footer .simple .zz span {
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 12px;
+}
+.footer .simple .zz .gaba a {
+  float: left;
+  display: block;
+  padding-left: 3px;
+  line-height: 20px;
+  height: 20px;
+  margin: 0;
+}
+.footer .simple .zz .gaba img {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reg.css.map */

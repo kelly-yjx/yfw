@@ -1,0 +1,45 @@
+i {
+	font-style: normal;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+.container {
+	width: 990px;
+	margin: 0 auto;
+}
+
+
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
+.clearfix:after{
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: " ";
+    font-size: 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
