@@ -1,0 +1,235 @@
+.login {
+  width: 100%;
+  height: 540px;
+  background: #353c45;
+  background: url(../img/login_bg.png) center top;
+}
+.login .container {
+  width: 1100px;
+}
+.login .left {
+  float: left;
+  width: 540px;
+  height: 540px;
+}
+.login .right {
+  float: right;
+  width: 415px;
+  margin-top: 60px;
+  position: relative;
+}
+.login .right .form_tab {
+  width: 320px;
+  margin: 0 auto 0px;
+  zoom: 1;
+  position: relative;
+  font-size: 0;
+}
+.login .right .form_tab .tab_item {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  color: #999;
+  float: left;
+  width: 48%;
+  margin: 0 1%;
+  text-align: center;
+  border-bottom: 4px solid transparent;
+}
+.login .right .form_tab .tab_checked {
+  color: #009926;
+  border-bottom-color: #009926;
+}
+.login .right .form_tab .tab_line {
+  height: 18px;
+  width: 0;
+  border-left: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 19px;
+  margin-left: -0.5px;
+}
+.login .form {
+  margin-top: 0;
+  padding: 64px 40px 6px 40px;
+  width: 320px;
+  background: #fff;
+}
+.login .form .item {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+.login .form .item .mb {
+  margin-bottom: 4px;
+}
+.login .form .item .mb .imgVerify {
+  height: 100%;
+}
+.login .form .item .mb span {
+  font-size: 14px !important;
+  padding: 0 12px;
+  display: block;
+  border-left: 1px solid transparent;
+}
+.login .form .item .r {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+}
+.login .form .item .r a {
+  color: #009926;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.login .form .item a:hover {
+  color: #009926;
+}
+.login .form .item .f {
+  text-decoration: underline;
+}
+.login .form .item span {
+  font-size: 16px;
+}
+.login .form .item .mb {
+  margin-bottom: 4px;
+}
+.login .form .item .input_big {
+  padding: 0 20px 0 35px;
+  width: 265px;
+  height: 40px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 14px;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  line-height: 40px;
+}
+.login .form .item .mt {
+  margin-top: 9px;
+}
+.login .form .op a:hover {
+  color: #fff;
+}
+.login .form .bginput {
+  position: relative;
+}
+.login .form .bginput i {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  display: block;
+  width: 18px;
+  height: 25px;
+  background-image: url(img/icons.png);
+}
+.login .form .bginput .user {
+  background-position: -351px -109px;
+}
+.login .form .bginput .pass {
+  background-position: -371px -109px;
+}
+.login .other {
+  margin-bottom: 20px;
+}
+.login .other a {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url(img/icons.png);
+}
+.login .other .qq {
+  background-position: -416px -142px;
+}
+.login .other .weixin {
+  background-position: -448px -142px;
+}
+.login .other .alipay {
+  background-position: -416px -174px;
+}
+.login .other .weibo {
+  background-position: -448px -174px;
+}
+.login .form_div {
+  margin-bottom: 6px;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.form-hide {
+  display: none;
+}
+
+.ckdiv .ck {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  margin-top: 14px;
+}
+
+.ck {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: -41px -25px;
+  vertical-align: middle;
+  position: relative;
+  background-image: url(img/icons.png);
+}
+.ck .checked {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: -60px -25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(img/icons.png);
+}
+
+.quick-form .input_big {
+  padding-left: 15px !important;
+  width: 285px !important;
+}
+
+.valid-img-wrap {
+  position: absolute;
+  top: -7px;
+  right: 1px;
+  height: 40px;
+}
+.valid-img-wrap img {
+  height: 100%;
+}
+
+.form-valid-code {
+  display: block;
+  width: 102px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px 0;
+  color: #0cb95f;
+  position: absolute;
+  right: 4px;
+  top: 7px;
+  text-align: center;
+}
+.form-valid-code span {
+  font-size: 14px !important;
+  padding: 0 12px;
+  display: block;
+  border-left: 1px solid transparent;
+  cursor: pointer;
+}
+.form-valid-code label {
+  cursor: default;
+}
+
+/*# sourceMappingURL=login.css.map */

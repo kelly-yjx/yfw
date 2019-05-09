@@ -6,6 +6,8 @@
 		<title>用户注册_药房网商城</title>
 		<link rel="stylesheet" type="text/css" href="../css/base.css" />
 		<link rel="stylesheet" type="text/css" href="../css/reg.css" />
+		<script src="../lib/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/reg.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
@@ -95,7 +97,7 @@
                                 </i>
                                 <input type="text" id="txtUserName" rege="/^[a-zA-Z0-9_-]{2,18}$/" maxlen="18" minlen="2" maxlength="18" class="input_big" errinfo="" info="请输入你的用户名，2-18个字符，只能字母、数字、中/下划线">
                             </span>
-									<span class="oninfo err" style="display: inline;"><i></i>请输入你的用户名，2-18个字符，只能字母、数字、中/下划线</span>
+									<span class="oninfo err" style="display: none;"><i></i>请输入你的用户名，2-18个字符，只能字母、数字、中/下划线</span>
 								</li>
 								<li>
 									<span class="note">
@@ -106,7 +108,7 @@
                                 </i>
                                 <input type="password" autocomplete="no" id="txtUserPass" rege="/^(?![0-9]+$)(?![a-zA-Z]+$)/" maxlen="20" minlen="6" maxlength="20" class="input_big" errinfo="" info="请输入您的登录密码，6-20位数字和字符组合，两边不能有空符号">
                             </span>
-									<span class="oninfo err" style="display: inline;"><i></i>请输入您的登录密码，6-20位数字和字符组合，两边不能有空符号</span>
+									<span class="oninfo err" style="display: none;"><i></i>请输入您的登录密码，6-20位数字和字符组合，两边不能有空符号</span>
 								</li>
 								<li>
 									<span class="note">
@@ -117,7 +119,7 @@
                                 </i>
                                 <input type="password" autocomplete="no" id="txtUserPass2" rege="/^(?![0-9]+$)(?![a-zA-Z]+$)/" maxlen="20" minlen="6" maxlength="20" class="input_big" errinfo="" info="请输入您的确认密码，6-20位数字和字符组合，必须和密码相等">
                             </span>
-									<span class="oninfo err" style="display: inline;"><i></i>请输入您的确认密码，6-20位数字和字符组合，必须和密码相等</span>
+									<span class="oninfo err" style="display: none;"><i></i>请输入您的确认密码，6-20位数字和字符组合，必须和密码相等</span>
 								</li>
 								<li>
 									<span class="note">
@@ -126,7 +128,7 @@
 									<span class="bginput">
                                 <input type="text" id="txt_Mobile" rege="/^(1)[0-9]{10}$/" maxlen="11" minlen="11" maxlength="11" class="input_big s" style="width: 290px;" errinfo="" store="" info="请输入您的手机号码，11位数字">
                             </span>
-									<span class="oninfo err" style="display: inline;"><i></i>请输入您的手机号码，11位数字</span>
+									<span class="oninfo err" style="display: none;"><i></i>请输入您的手机号码，11位数字</span>
 								</li>
 								<li>
 									<span class="note">
@@ -218,7 +220,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer small">
+<div class="footer small">
     <div class="simple">
         <div class="container small">
             <p>
