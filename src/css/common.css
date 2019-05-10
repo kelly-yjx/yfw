@@ -1,0 +1,10 @@
+.container{
+	position: relative;
+    margin: 0 auto 0;
+    width: 1190px;
+    height: 40px;
+    line-height: 40px;
+}
+input{
+	outline: none;
+}

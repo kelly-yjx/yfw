@@ -115,6 +115,10 @@
 	width: 44%;
 	vertical-align: top;
 	text-align: left;
+	padding-left: 20px;
+}
+.header_top .fr .daohang .other .item:nth-child(2) {
+	border-left: 1px solid #ccc;
 }
 
 .header_top .fr .daohang .other .item .h1 {
@@ -131,7 +135,7 @@
 }
 
 .header_top .fr .daohang .other .item a:hover {
-	color: #009926;
+	text-decoration: underline;
 }
 
 .header_top .fr .daohang:hover {
